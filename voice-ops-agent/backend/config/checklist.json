@@ -1,0 +1,69 @@
+{
+  "require_action_owner": true,
+  "required_fields": [
+    {
+      "field": "customer",
+      "label": "Customer",
+      "severity": "high",
+      "question": "Which customer or organisation was this job for?"
+    },
+    {
+      "field": "job_status",
+      "label": "Job status",
+      "severity": "high",
+      "question": "Is the job completed, partially completed, blocked, or awaiting a return visit?"
+    },
+    {
+      "field": "work_performed",
+      "label": "Work performed",
+      "severity": "high",
+      "when_status": ["completed", "partially_completed", "in_progress", "awaiting_return_visit", "unknown"],
+      "question": "What work was actually carried out on this visit?"
+    },
+    {
+      "field": "testing_confirmed",
+      "label": "Testing or verification",
+      "severity": "high",
+      "when_status": ["completed", "partially_completed"],
+      "question": "Was the work or equipment tested after the job, and what was the result?"
+    },
+    {
+      "field": "outstanding_work",
+      "label": "Outstanding work",
+      "severity": "high",
+      "when_status": ["partially_completed", "awaiting_return_visit", "in_progress"],
+      "question": "What work is still outstanding on this job?"
+    },
+    {
+      "field": "issues",
+      "label": "Reason for blocker",
+      "severity": "high",
+      "when_status": ["blocked"],
+      "question": "What exactly is blocking this job?"
+    },
+    {
+      "field": "technician",
+      "label": "Technician",
+      "severity": "medium",
+      "question": "Which technician reported this job?"
+    },
+    {
+      "field": "location",
+      "label": "Site or location",
+      "severity": "medium",
+      "question": "Where (site or address) was the work done?"
+    },
+    {
+      "field": "job_reference",
+      "label": "Job reference",
+      "severity": "low",
+      "question": "What is the job reference or ticket number?"
+    },
+    {
+      "field": "activity_date",
+      "label": "Date of activity",
+      "severity": "low",
+      "question": "On what date was this work done?"
+    }
+  ]
+}

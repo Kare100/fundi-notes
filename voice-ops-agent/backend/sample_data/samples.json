@@ -1,0 +1,861 @@
+[
+  {
+    "id": "clean-installation",
+    "title": "Complete installation, all details given",
+    "description": "Everything the checklist needs is stated. Expect a clean report with no flags.",
+    "reported_offset_days": 0,
+    "transcript": "This is Peter Otieno reporting on job JOB-20481 at Greenfield Dental Clinic in Westlands. I finished installing the two split air conditioning units in the treatment rooms today, the 24th of October. I used twelve metres of copper pipe, one condensate pump and two wall brackets. I tested both units, they cool properly and there are no leaks. The clinic manager, Mrs Njoroge, signed off the work and the job is complete.",
+    "extraction": {
+      "technician": {
+        "value": "Peter Otieno",
+        "basis": "stated",
+        "evidence": [
+          "This is Peter Otieno"
+        ]
+      },
+      "customer": {
+        "value": "Greenfield Dental Clinic",
+        "basis": "stated",
+        "evidence": [
+          "Greenfield Dental Clinic in Westlands"
+        ]
+      },
+      "job_reference": {
+        "value": "JOB-20481",
+        "basis": "stated",
+        "evidence": [
+          "job JOB-20481"
+        ]
+      },
+      "activity_date": {
+        "value": "24th of October",
+        "basis": "stated",
+        "evidence": [
+          "the 24th of October"
+        ]
+      },
+      "location": {
+        "value": "Westlands",
+        "basis": "stated",
+        "evidence": [
+          "Greenfield Dental Clinic in Westlands"
+        ]
+      },
+      "job_status": {
+        "value": "completed",
+        "basis": "stated",
+        "evidence": [
+          "the job is complete"
+        ]
+      },
+      "work_performed": {
+        "value": [
+          "Installed two split air conditioning units in the treatment rooms"
+        ],
+        "basis": "stated",
+        "evidence": [
+          "I finished installing the two split air conditioning units in the treatment rooms"
+        ]
+      },
+      "equipment": {
+        "value": [
+          "Two split air conditioning units"
+        ],
+        "basis": "stated",
+        "evidence": [
+          "the two split air conditioning units"
+        ]
+      },
+      "parts_materials": {
+        "value": [
+          "Twelve metres of copper pipe",
+          "One condensate pump",
+          "Two wall brackets"
+        ],
+        "basis": "stated",
+        "evidence": [
+          "I used twelve metres of copper pipe, one condensate pump and two wall brackets"
+        ]
+      },
+      "issues": {
+        "value": [],
+        "basis": "stated",
+        "evidence": []
+      },
+      "outstanding_work": {
+        "value": [],
+        "basis": "stated",
+        "evidence": []
+      },
+      "customer_concerns": {
+        "value": [],
+        "basis": "stated",
+        "evidence": []
+      },
+      "testing_confirmed": {
+        "value": "Both units were tested; they cool properly and there are no leaks",
+        "basis": "stated",
+        "evidence": [
+          "I tested both units, they cool properly and there are no leaks"
+        ]
+      },
+      "actions": [],
+      "contradictions": [],
+      "ambiguities": [],
+      "summary": "Peter Otieno installed two split air conditioning units in the treatment rooms at Greenfield Dental Clinic, Westlands (job JOB-20481). Both units were tested and cool properly with no leaks. The clinic manager signed off the work and the technician states the job is complete."
+    }
+  },
+  {
+    "id": "done-but-incomplete-info",
+    "title": "Says everything is done, but customer and testing are missing",
+    "description": "The technician sounds finished yet never names the customer or confirms testing. Expect missing-information flags.",
+    "reported_offset_days": 0,
+    "transcript": "Hi, it's Brian. I've just finished the installation of the new water pump at the site in Ruaka. It's all fixed in place and connected. I used two gate valves and some fittings. Everything is done.",
+    "extraction": {
+      "technician": {
+        "value": "Brian",
+        "basis": "stated",
+        "evidence": [
+          "it's Brian"
+        ]
+      },
+      "customer": {
+        "value": null,
+        "basis": "stated",
+        "evidence": []
+      },
+      "job_reference": {
+        "value": null,
+        "basis": "stated",
+        "evidence": []
+      },
+      "activity_date": {
+        "value": null,
+        "basis": "stated",
+        "evidence": []
+      },
+      "location": {
+        "value": "Ruaka",
+        "basis": "stated",
+        "evidence": [
+          "the site in Ruaka"
+        ]
+      },
+      "job_status": {
+        "value": "completed",
+        "basis": "stated",
+        "evidence": [
+          "Everything is done"
+        ]
+      },
+      "work_performed": {
+        "value": [
+          "Installed the new water pump and connected it"
+        ],
+        "basis": "stated",
+        "evidence": [
+          "I've just finished the installation of the new water pump at the site in Ruaka",
+          "It's all fixed in place and connected"
+        ]
+      },
+      "equipment": {
+        "value": [
+          "New water pump"
+        ],
+        "basis": "stated",
+        "evidence": [
+          "the new water pump"
+        ]
+      },
+      "parts_materials": {
+        "value": [
+          "Two gate valves",
+          "Some fittings"
+        ],
+        "basis": "stated",
+        "evidence": [
+          "I used two gate valves and some fittings"
+        ]
+      },
+      "issues": {
+        "value": [],
+        "basis": "stated",
+        "evidence": []
+      },
+      "outstanding_work": {
+        "value": [],
+        "basis": "stated",
+        "evidence": []
+      },
+      "customer_concerns": {
+        "value": [],
+        "basis": "stated",
+        "evidence": []
+      },
+      "testing_confirmed": {
+        "value": null,
+        "basis": "stated",
+        "evidence": []
+      },
+      "actions": [],
+      "contradictions": [],
+      "ambiguities": [
+        {
+          "field": "parts_materials",
+          "detail": "'Some fittings' does not say which fittings or how many.",
+          "question": "Which fittings were used, and how many?",
+          "evidence": [
+            "some fittings"
+          ]
+        }
+      ],
+      "summary": "Brian reports finishing the installation of a new water pump at a site in Ruaka. It is fixed in place and connected, using two gate valves and some fittings, and he says everything is done. The recording does not name the customer or say whether the pump was tested."
+    }
+  },
+  {
+    "id": "blocked-waiting-for-part",
+    "title": "Blocked, waiting for a part from the supplier",
+    "description": "A blocked job with an upset customer, an unnamed owner of one action and a relative date.",
+    "reported_offset_days": 0,
+    "transcript": "Wanjiru here, job reference 7733, Sunrise Bakery in Thika. I got to site this morning to repair the oven control board but I could not start because the replacement board has not arrived from the supplier. The supplier said it would be here Thursday. Someone in the office needs to confirm the delivery date with them, and I will go back as soon as it arrives. The owner is quite upset because production has stopped.",
+    "extraction": {
+      "technician": {
+        "value": "Wanjiru",
+        "basis": "stated",
+        "evidence": [
+          "Wanjiru here"
+        ]
+      },
+      "customer": {
+        "value": "Sunrise Bakery",
+        "basis": "stated",
+        "evidence": [
+          "Sunrise Bakery in Thika"
+        ]
+      },
+      "job_reference": {
+        "value": "7733",
+        "basis": "stated",
+        "evidence": [
+          "job reference 7733"
+        ]
+      },
+      "activity_date": {
+        "value": "this morning",
+        "basis": "stated",
+        "evidence": [
+          "I got to site this morning"
+        ]
+      },
+      "location": {
+        "value": "Thika",
+        "basis": "stated",
+        "evidence": [
+          "Sunrise Bakery in Thika"
+        ]
+      },
+      "job_status": {
+        "value": "blocked",
+        "basis": "stated",
+        "evidence": [
+          "I could not start because the replacement board has not arrived from the supplier"
+        ]
+      },
+      "work_performed": {
+        "value": [],
+        "basis": "stated",
+        "evidence": []
+      },
+      "equipment": {
+        "value": [
+          "Oven control board"
+        ],
+        "basis": "stated",
+        "evidence": [
+          "to repair the oven control board"
+        ]
+      },
+      "parts_materials": {
+        "value": [],
+        "basis": "stated",
+        "evidence": []
+      },
+      "issues": {
+        "value": [
+          "The replacement control board has not arrived from the supplier, so the repair could not start"
+        ],
+        "basis": "stated",
+        "evidence": [
+          "I could not start because the replacement board has not arrived from the supplier"
+        ]
+      },
+      "outstanding_work": {
+        "value": [
+          "Repair the oven control board once the replacement board arrives"
+        ],
+        "basis": "stated",
+        "evidence": [
+          "to repair the oven control board",
+          "I will go back as soon as it arrives"
+        ]
+      },
+      "customer_concerns": {
+        "value": [
+          "The owner is upset because production has stopped"
+        ],
+        "basis": "stated",
+        "evidence": [
+          "The owner is quite upset because production has stopped"
+        ]
+      },
+      "testing_confirmed": {
+        "value": null,
+        "basis": "stated",
+        "evidence": []
+      },
+      "actions": [
+        {
+          "description": "Confirm the replacement board delivery date with the supplier",
+          "owner": "Someone in the office",
+          "deadline": null,
+          "evidence": [
+            "Someone in the office needs to confirm the delivery date with them"
+          ]
+        },
+        {
+          "description": "Return to site and repair the oven control board once the replacement arrives",
+          "owner": "Wanjiru",
+          "deadline": "as soon as it arrives",
+          "evidence": [
+            "I will go back as soon as it arrives"
+          ]
+        }
+      ],
+      "contradictions": [],
+      "ambiguities": [
+        {
+          "field": null,
+          "detail": "The task of confirming the delivery date is given to 'someone in the office', not a named person.",
+          "question": "Who in the office will confirm the delivery date with the supplier?",
+          "evidence": [
+            "Someone in the office needs to confirm the delivery date with them"
+          ]
+        }
+      ],
+      "summary": "Wanjiru could not start repairing the oven control board at Sunrise Bakery in Thika (job 7733) because the replacement board has not arrived from the supplier. The owner is upset because production has stopped. Someone in the office needs to confirm the delivery date, and Wanjiru will return as soon as the board arrives."
+    }
+  },
+  {
+    "id": "return-visit-needed",
+    "title": "Partly fixed, return visit planned",
+    "description": "Status is interpreted from 'need to come back'. Includes a stated deadline (Monday) and an unclear fault cause.",
+    "reported_offset_days": 1,
+    "transcript": "This is Daniel Kamau, job 5120, at Lakeview Pharmacy in Kilimani. I serviced the cold room compressor today. I changed the oil, cleaned the condenser coils and replaced the door gasket. The compressor still trips on high pressure after about twenty minutes, so I could not finish. I need to come back on Monday with a new pressure switch. I am not sure if it is the switch or the refrigerant charge.",
+    "extraction": {
+      "technician": {
+        "value": "Daniel Kamau",
+        "basis": "stated",
+        "evidence": [
+          "This is Daniel Kamau"
+        ]
+      },
+      "customer": {
+        "value": "Lakeview Pharmacy",
+        "basis": "stated",
+        "evidence": [
+          "at Lakeview Pharmacy in Kilimani"
+        ]
+      },
+      "job_reference": {
+        "value": "5120",
+        "basis": "stated",
+        "evidence": [
+          "job 5120"
+        ]
+      },
+      "activity_date": {
+        "value": "today",
+        "basis": "stated",
+        "evidence": [
+          "I serviced the cold room compressor today"
+        ]
+      },
+      "location": {
+        "value": "Kilimani",
+        "basis": "stated",
+        "evidence": [
+          "at Lakeview Pharmacy in Kilimani"
+        ]
+      },
+      "job_status": {
+        "value": "awaiting_return_visit",
+        "basis": "interpreted",
+        "evidence": [
+          "I need to come back on Monday with a new pressure switch"
+        ]
+      },
+      "work_performed": {
+        "value": [
+          "Changed the oil",
+          "Cleaned the condenser coils",
+          "Replaced the door gasket"
+        ],
+        "basis": "stated",
+        "evidence": [
+          "I changed the oil, cleaned the condenser coils and replaced the door gasket"
+        ]
+      },
+      "equipment": {
+        "value": [
+          "Cold room compressor"
+        ],
+        "basis": "stated",
+        "evidence": [
+          "I serviced the cold room compressor today"
+        ]
+      },
+      "parts_materials": {
+        "value": [
+          "Oil",
+          "Door gasket"
+        ],
+        "basis": "stated",
+        "evidence": [
+          "I changed the oil, cleaned the condenser coils and replaced the door gasket"
+        ]
+      },
+      "issues": {
+        "value": [
+          "The compressor still trips on high pressure after about twenty minutes"
+        ],
+        "basis": "stated",
+        "evidence": [
+          "The compressor still trips on high pressure after about twenty minutes"
+        ]
+      },
+      "outstanding_work": {
+        "value": [
+          "Resolve the high pressure trip",
+          "Fit a new pressure switch"
+        ],
+        "basis": "stated",
+        "evidence": [
+          "so I could not finish",
+          "I need to come back on Monday with a new pressure switch"
+        ]
+      },
+      "customer_concerns": {
+        "value": [],
+        "basis": "stated",
+        "evidence": []
+      },
+      "testing_confirmed": {
+        "value": null,
+        "basis": "stated",
+        "evidence": []
+      },
+      "actions": [
+        {
+          "description": "Return to site with a new pressure switch",
+          "owner": "Daniel Kamau",
+          "deadline": "Monday",
+          "evidence": [
+            "I need to come back on Monday with a new pressure switch"
+          ]
+        }
+      ],
+      "contradictions": [],
+      "ambiguities": [
+        {
+          "field": "issues",
+          "detail": "The technician is unsure whether the fault is the pressure switch or the refrigerant charge.",
+          "question": "What is the suspected cause of the high pressure trip, and could a refrigerant top up also be needed?",
+          "evidence": [
+            "I am not sure if it is the switch or the refrigerant charge"
+          ]
+        }
+      ],
+      "summary": "Daniel Kamau serviced the cold room compressor at Lakeview Pharmacy in Kilimani (job 5120), changing the oil, cleaning the condenser coils and replacing the door gasket. The compressor still trips on high pressure, so the job is unfinished and he needs to return on Monday with a new pressure switch. The cause is not yet certain."
+    }
+  },
+  {
+    "id": "contradictory-status",
+    "title": "Says the job is done, then describes unfinished work",
+    "description": "The statements conflict. Expect a contradiction flag, an unresolved customer question and an ambiguous site.",
+    "reported_offset_days": 1,
+    "transcript": "Achieng from Ruiru, job ninety two twelve, for Eastside Logistics. I completed the CCTV install, all eight cameras. Two cameras are not recording yet though, I am waiting for the NVR firmware update and I will have to go back to fix that. Anyway the job is done. The customer asked if the warranty covers the cabling.",
+    "extraction": {
+      "technician": {
+        "value": "Achieng",
+        "basis": "stated",
+        "evidence": [
+          "Achieng from Ruiru"
+        ]
+      },
+      "customer": {
+        "value": "Eastside Logistics",
+        "basis": "stated",
+        "evidence": [
+          "for Eastside Logistics"
+        ]
+      },
+      "job_reference": {
+        "value": "ninety two twelve",
+        "basis": "stated",
+        "evidence": [
+          "job ninety two twelve"
+        ]
+      },
+      "activity_date": {
+        "value": null,
+        "basis": "stated",
+        "evidence": []
+      },
+      "location": {
+        "value": "Ruiru",
+        "basis": "interpreted",
+        "evidence": [
+          "Achieng from Ruiru"
+        ]
+      },
+      "job_status": {
+        "value": "completed",
+        "basis": "stated",
+        "evidence": [
+          "Anyway the job is done"
+        ]
+      },
+      "work_performed": {
+        "value": [
+          "Installed the CCTV system with all eight cameras"
+        ],
+        "basis": "stated",
+        "evidence": [
+          "I completed the CCTV install, all eight cameras"
+        ]
+      },
+      "equipment": {
+        "value": [
+          "CCTV cameras",
+          "NVR"
+        ],
+        "basis": "stated",
+        "evidence": [
+          "all eight cameras",
+          "the NVR firmware update"
+        ]
+      },
+      "parts_materials": {
+        "value": [],
+        "basis": "stated",
+        "evidence": []
+      },
+      "issues": {
+        "value": [
+          "Two cameras are not recording yet"
+        ],
+        "basis": "stated",
+        "evidence": [
+          "Two cameras are not recording yet though"
+        ]
+      },
+      "outstanding_work": {
+        "value": [
+          "Fix the two cameras that are not recording after the NVR firmware update"
+        ],
+        "basis": "stated",
+        "evidence": [
+          "I am waiting for the NVR firmware update and I will have to go back to fix that"
+        ]
+      },
+      "customer_concerns": {
+        "value": [
+          "The customer asked whether the warranty covers the cabling"
+        ],
+        "basis": "stated",
+        "evidence": [
+          "The customer asked if the warranty covers the cabling"
+        ]
+      },
+      "testing_confirmed": {
+        "value": null,
+        "basis": "stated",
+        "evidence": []
+      },
+      "actions": [
+        {
+          "description": "Go back and fix the two cameras that are not recording once the NVR firmware update is done",
+          "owner": "Achieng",
+          "deadline": null,
+          "evidence": [
+            "I will have to go back to fix that"
+          ]
+        },
+        {
+          "description": "Answer the customer's question about whether the warranty covers the cabling",
+          "owner": null,
+          "deadline": null,
+          "evidence": [
+            "The customer asked if the warranty covers the cabling"
+          ]
+        }
+      ],
+      "contradictions": [
+        {
+          "field": "job_status",
+          "detail": "The technician says the job is done but also that two cameras are not recording and a return visit is needed.",
+          "question": "Is the job complete, or is it waiting for a return visit?",
+          "evidence": [
+            "Anyway the job is done",
+            "I will have to go back to fix that"
+          ]
+        }
+      ],
+      "ambiguities": [
+        {
+          "field": "job_reference",
+          "detail": "The job reference was spoken as words ('ninety two twelve'); the numeric form is not certain.",
+          "question": "Please confirm the numeric job reference.",
+          "evidence": [
+            "job ninety two twelve"
+          ]
+        },
+        {
+          "field": "location",
+          "detail": "'Ruiru' may be where the technician is from rather than the job site.",
+          "question": "Is Ruiru the site of this job?",
+          "evidence": [
+            "Achieng from Ruiru"
+          ]
+        }
+      ],
+      "summary": "Achieng installed the CCTV system for Eastside Logistics with all eight cameras and says the job is done. However, two cameras are not recording yet and a return visit is needed once the NVR firmware update is available. The customer also asked whether the warranty covers the cabling."
+    }
+  },
+  {
+    "id": "swahili-english-mix",
+    "title": "Mixed Swahili and English voice note",
+    "description": "Shows mixed language handling. Customer and date are missing; the return date is the relative word 'kesho'.",
+    "reported_offset_days": 2,
+    "transcript": "Habari boss, ni Juma hapa. Nimeenda kwa ile site ya Kitengela na nimekagua generator. Ina shida ya fuel pump. Nimebadilisha fuel filter lakini bado inazima baada ya dakika chache. Nitarudi kesho na pump mpya.",
+    "extraction": {
+      "technician": {
+        "value": "Juma",
+        "basis": "stated",
+        "evidence": [
+          "ni Juma hapa"
+        ]
+      },
+      "customer": {
+        "value": null,
+        "basis": "stated",
+        "evidence": []
+      },
+      "job_reference": {
+        "value": null,
+        "basis": "stated",
+        "evidence": []
+      },
+      "activity_date": {
+        "value": null,
+        "basis": "stated",
+        "evidence": []
+      },
+      "location": {
+        "value": "Kitengela",
+        "basis": "stated",
+        "evidence": [
+          "ile site ya Kitengela"
+        ]
+      },
+      "job_status": {
+        "value": "awaiting_return_visit",
+        "basis": "interpreted",
+        "evidence": [
+          "Nitarudi kesho na pump mpya"
+        ]
+      },
+      "work_performed": {
+        "value": [
+          "Inspected the generator",
+          "Replaced the fuel filter"
+        ],
+        "basis": "stated",
+        "evidence": [
+          "nimekagua generator",
+          "Nimebadilisha fuel filter"
+        ]
+      },
+      "equipment": {
+        "value": [
+          "Generator"
+        ],
+        "basis": "stated",
+        "evidence": [
+          "nimekagua generator"
+        ]
+      },
+      "parts_materials": {
+        "value": [
+          "Fuel filter"
+        ],
+        "basis": "stated",
+        "evidence": [
+          "Nimebadilisha fuel filter"
+        ]
+      },
+      "issues": {
+        "value": [
+          "The generator has a fuel pump problem",
+          "The generator still shuts off after a few minutes"
+        ],
+        "basis": "stated",
+        "evidence": [
+          "Ina shida ya fuel pump",
+          "bado inazima baada ya dakika chache"
+        ]
+      },
+      "outstanding_work": {
+        "value": [
+          "Replace the fuel pump"
+        ],
+        "basis": "stated",
+        "evidence": [
+          "Nitarudi kesho na pump mpya"
+        ]
+      },
+      "customer_concerns": {
+        "value": [],
+        "basis": "stated",
+        "evidence": []
+      },
+      "testing_confirmed": {
+        "value": null,
+        "basis": "stated",
+        "evidence": []
+      },
+      "actions": [
+        {
+          "description": "Return with a new fuel pump",
+          "owner": "Juma",
+          "deadline": "kesho",
+          "evidence": [
+            "Nitarudi kesho na pump mpya"
+          ]
+        }
+      ],
+      "contradictions": [],
+      "ambiguities": [
+        {
+          "field": null,
+          "detail": "The return visit is 'kesho' (tomorrow), but the recording does not say which day it was made.",
+          "question": "Which calendar date is the return visit planned for?",
+          "evidence": [
+            "Nitarudi kesho na pump mpya"
+          ]
+        }
+      ],
+      "summary": "Juma inspected a generator at a site in Kitengela and found a fuel pump problem. He replaced the fuel filter, but the generator still shuts off after a few minutes. He plans to return the next day with a new fuel pump. The customer is not named."
+    }
+  },
+  {
+    "id": "vague-note",
+    "title": "Very vague note",
+    "description": "Almost nothing is stated. The system must not invent details or assume the job is complete.",
+    "reported_offset_days": 0,
+    "transcript": "Uh yeah so I went there and sorted the thing, should be fine now. Will update later.",
+    "extraction": {
+      "technician": {
+        "value": null,
+        "basis": "stated",
+        "evidence": []
+      },
+      "customer": {
+        "value": null,
+        "basis": "stated",
+        "evidence": []
+      },
+      "job_reference": {
+        "value": null,
+        "basis": "stated",
+        "evidence": []
+      },
+      "activity_date": {
+        "value": null,
+        "basis": "stated",
+        "evidence": []
+      },
+      "location": {
+        "value": null,
+        "basis": "stated",
+        "evidence": []
+      },
+      "job_status": {
+        "value": "unknown",
+        "basis": "stated",
+        "evidence": []
+      },
+      "work_performed": {
+        "value": [
+          "Sorted 'the thing' (not specified)"
+        ],
+        "basis": "interpreted",
+        "evidence": [
+          "sorted the thing"
+        ]
+      },
+      "equipment": {
+        "value": [],
+        "basis": "stated",
+        "evidence": []
+      },
+      "parts_materials": {
+        "value": [],
+        "basis": "stated",
+        "evidence": []
+      },
+      "issues": {
+        "value": [],
+        "basis": "stated",
+        "evidence": []
+      },
+      "outstanding_work": {
+        "value": [],
+        "basis": "stated",
+        "evidence": []
+      },
+      "customer_concerns": {
+        "value": [],
+        "basis": "stated",
+        "evidence": []
+      },
+      "testing_confirmed": {
+        "value": null,
+        "basis": "stated",
+        "evidence": []
+      },
+      "actions": [
+        {
+          "description": "Technician will give an update later",
+          "owner": null,
+          "deadline": null,
+          "evidence": [
+            "Will update later"
+          ]
+        }
+      ],
+      "contradictions": [],
+      "ambiguities": [
+        {
+          "field": "work_performed",
+          "detail": "The work is described only as 'sorted the thing'; the fault and the fix are not stated.",
+          "question": "What was the fault, and what exactly was done to fix it?",
+          "evidence": [
+            "sorted the thing"
+          ]
+        }
+      ],
+      "summary": "The technician says they went to a site and sorted 'the thing', which should be fine now, but gives no customer, location, job reference or description of the work. The job status is not stated, so it is not treated as complete."
+    }
+  }
+]
