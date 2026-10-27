@@ -1,4 +1,4 @@
-# Field Reports: voice notes to operations reports
+# Fundi Notes: voice notes to operations reports
 
 A working MVP that turns technicians' voice notes into structured job reports for small field-service
 businesses. A manager uploads a recording, the app transcribes it, extracts the job details, flags what is
