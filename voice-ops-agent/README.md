@@ -9,6 +9,20 @@ executive summary.
 * **Frontend:** React 18, TypeScript, Vite
 * **Speech to text and LLM:** pluggable adapters. Ships with OpenAI (transcription), Anthropic and OpenAI (extraction), and a clearly labelled demo mode that needs no keys.
 
+## The problem
+
+In small field-service businesses (installations, repairs, maintenance), technicians finish a job or visit a customer and send the manager a voice note, usually on WhatsApp. Voice notes are quick for the technician, but they push the work onto the manager:
+
+* Every recording has to be **listened to in full**, often more than once, just to find the one detail that matters.
+* The manager then **rewrites it into a report** by hand, for every job.
+* Voice notes are **impossible to scan or search**. Nobody can ask "which jobs are blocked right now?" without replaying them.
+* Details go **missing without anyone noticing**: no customer name, no confirmation the equipment was tested, no owner for the follow-up.
+* "It's done, but..." notes hide **incomplete jobs and promised follow-ups**, and those slip through the cracks.
+
+The result is hours of administrative work, reports that vary from person to person, and customers left waiting because a return visit or a part order got lost in a chat thread.
+
+Fundi Notes is not just a transcription tool. It turns an unstructured voice update into a concise, structured report, flags what is missing or contradictory, and shows the manager what needs action.  
+
 ## Quick start (demo mode, no API keys)
 
 You need Python 3.11+, Node 18+ and (recommended) `ffmpeg`, which provides `ffprobe` for audio validation.
