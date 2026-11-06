@@ -1,5 +1,7 @@
 # Fundi Notes: voice notes to operations reports
 
+[![Tests](https://github.com/Kare100/fundi-notes/actions/workflows/tests.yml/badge.svg)](https://github.com/Kare100/fundi-notes/actions/workflows/tests.yml)
+
 A working MVP that turns technicians' voice notes into structured job reports for small field-service
 businesses. A manager uploads a recording, the app transcribes it, extracts the job details, flags what is
 missing or contradictory, writes a concise report, and shows everything on a dashboard with a daily
